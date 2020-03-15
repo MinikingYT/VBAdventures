@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "VB Weapons",
+    "icon": {
+      "value": "CUSTOM:SegrumSword"
+    },
+    "showSearch": false
+  }
+}

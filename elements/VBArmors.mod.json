@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "VB Armors",
+    "icon": {
+      "value": "Items.TURTLE_HELMET"
+    },
+    "showSearch": false
+  }
+}

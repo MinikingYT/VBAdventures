@@ -1,0 +1,13 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vbadventures:segrumoreblock"
+    }
+  ],
+  "result": {
+    "item": "vbadventures:segrumingot",
+    "count": 9
+  }
+}

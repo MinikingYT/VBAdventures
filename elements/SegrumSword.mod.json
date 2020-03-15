@@ -1,0 +1,27 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "segrum_sword",
+    "customModelName": "Normal",
+    "name": "Segrum Sword",
+    "creativeTab": {
+      "value": "CUSTOM:VBWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 32,
+    "damageVsEntity": 10.0,
+    "usageCount": 802,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:SegrumIngot"
+      }
+    ]
+  }
+}

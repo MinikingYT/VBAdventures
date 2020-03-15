@@ -1,0 +1,42 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:segrumingot"
+    },
+    "1": {
+      "item": "vbadventures:segrumingot"
+    },
+    "2": {
+      "item": "vbadventures:segrumingot"
+    },
+    "3": {
+      "item": "vbadventures:segrumingot"
+    },
+    "4": {
+      "item": "vbadventures:segrumingot"
+    },
+    "5": {
+      "item": "vbadventures:segrumingot"
+    },
+    "6": {
+      "item": "vbadventures:segrumingot"
+    },
+    "7": {
+      "item": "vbadventures:segrumingot"
+    },
+    "8": {
+      "item": "vbadventures:segrumingot"
+    }
+  },
+  "result": {
+    "item": "vbadventures:segrumoreblock",
+    "count": 1
+  }
+}

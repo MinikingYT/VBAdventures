@@ -1,0 +1,30 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:segrumingot"
+    },
+    "1": {
+      "item": "vbadventures:segrumingot"
+    },
+    "2": {
+      "item": "vbadventures:segrumingot"
+    },
+    "4": {
+      "item": "vbadventures:segrumhandle"
+    },
+    "7": {
+      "item": "vbadventures:segrumhandle"
+    }
+  },
+  "result": {
+    "item": "vbadventures:segrumpickaxe",
+    "count": 1
+  }
+}

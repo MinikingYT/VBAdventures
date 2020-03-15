@@ -1,0 +1,27 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:segrumingot"
+    },
+    "1": {
+      "item": "vbadventures:segrumingot"
+    },
+    "3": {
+      "item": "vbadventures:segrumhandle"
+    },
+    "5": {
+      "item": "vbadventures:segrumhandle"
+    }
+  },
+  "result": {
+    "item": "vbadventures:segrumhoe",
+    "count": 1
+  }
+}

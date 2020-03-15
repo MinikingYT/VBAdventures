@@ -1,0 +1,48 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "3": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "6": {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    "7": {
+      "item": "minecraft:stick"
+    },
+    "8": {
+      "item": "minecraft:coal",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "vbadventures:handle",
+    "count": 1
+  }
+}

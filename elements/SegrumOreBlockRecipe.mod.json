@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:SegrumOreBlock"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      },
+      {
+        "value": "CUSTOM:SegrumIngot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "segrumoreblockrecipe",
+    "namespace": "mod"
+  }
+}
