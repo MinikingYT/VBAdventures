@@ -1,0 +1,30 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "1": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "2": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "3": {
+      "item": "vbadventures:ebritehandle"
+    },
+    "5": {
+      "item": "vbadventures:ebritehandle"
+    }
+  },
+  "result": {
+    "item": "vbadventures:ebriteaxe",
+    "count": 1
+  }
+}

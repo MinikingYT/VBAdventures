@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vbadventures:blocks/ebrite_ore",
+    "particle": "vbadventures:blocks/ebrite_ore"
+  }
+}

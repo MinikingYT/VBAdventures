@@ -1,0 +1,7 @@
+{
+  "parent": "vbadventures:custom/block",
+  "textures": {
+    "all": "vbadventures:blocks/segrum_ore_block",
+    "particle": "vbadventures:blocks/segrum_ore_block"
+  }
+}

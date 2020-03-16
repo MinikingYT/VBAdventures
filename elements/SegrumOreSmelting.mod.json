@@ -3,40 +3,8 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Smelting",
-    "recipeRetstackSize": 1,
+    "recipeRetstackSize": 0,
     "recipeShapeless": false,
-    "recipeReturnStack": {
-      "value": ""
-    },
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
     "smeltingInputStack": {
       "value": "CUSTOM:SegrumOre"
     },

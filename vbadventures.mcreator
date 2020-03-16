@@ -1,5 +1,7 @@
 {
-  "id_map": {},
+  "id_map": {
+    "ENTITY": 4
+  },
   "mod_elements": [
     {
       "name": "SegrumOre",
@@ -238,30 +240,343 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Welcome",
+      "type": "achievement",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "WelcomeProcedure",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BigSwordMobIsHitWithTool",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EbriteOre",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteOreBlock",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteIngot",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteOreSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbritePickaxe",
+      "type": "tool",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteAxe",
+      "type": "tool",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteSword",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteShovel",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteHoe",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbritePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteAxeRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteSwordRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteShovelRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteHoeRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteArmor",
+      "type": "armor",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "EbriteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteHandle",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "EbriteHandleRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Ebrite",
+      "type": "tag",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Sword3dModel1",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegacySword",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegacyBoss",
+      "type": "mob",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3,
+        "1": 4
+      }
+    },
+    {
+      "name": "Espada",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BlizeriumSword",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.segrumarmorhelmet.name": "Segrum Helmet",
+      "item.ebritearmorboots.name": "Ebrite Boots",
+      "item.ebritearmorlegs.name": "Ebrite Leggings",
       "item.segrumhandle.name": "Segrum Handle",
-      "item.segrumarmorboots.name": "Segrum Boots",
-      "item.segrumarmorlegs.name": "Segrum Leggings",
-      "itemGroup.tabvbtools": "VB Tools",
-      "item.segrumsword.name": "Segrum Sword",
+      "item.ebritehandle.name": "Ebrite Handle",
+      "item.ebritearmorbody.name": "Ebrite Chestplate",
+      "item.ebriteingot.name": "Ebrite",
       "item.segrumhoe.name": "Segrum Hoe",
-      "item.segrumingot.name": "Segrum",
-      "tile.segrumore.name": "Segrum Ore",
       "item.segrumaxe.name": "Segrum Axe",
-      "item.segrumshovel.name": "Segrum Shovel",
-      "item.handle.name": "Handle",
-      "item.segrumarmorbody.name": "Segrum Chestplate",
+      "advancements.welcome.title": "Welcome",
+      "item.ebriteshovel.name": "Ebrite Shovel",
+      "item.ebritesword.name": "Ebrite Sword",
+      "item.sword3dmodel1.name": "Legacy Sword",
       "itemGroup.tabvbweapons": "VB Weapons",
-      "itemGroup.tabvbores": "VB Ores",
+      "tile.ebriteore.name": "Ebrite Ore",
+      "item.blizeriumsword.name": "Blizerium Sword",
       "tile.segrumoreblock.name": "Block of Segrum",
       "item.segrumpickaxe.name": "Segrum Pickaxe",
-      "itemGroup.tabvbarmors": "VB Armors"
+      "item.ebriteaxe.name": "Ebrite Axe",
+      "itemGroup.tabvbarmors": "VB Armors",
+      "item.espada.name": "Espada",
+      "item.segrumarmorhelmet.name": "Segrum Helmet",
+      "item.segrumarmorboots.name": "Segrum Boots",
+      "advancements.welcome.descr": "Get Started",
+      "item.segrumarmorlegs.name": "Segrum Leggings",
+      "itemGroup.tabvbtools": "VB Tools",
+      "item.legacysword.name": "Legacy Sword",
+      "item.segrumsword.name": "Segrum Sword",
+      "item.segrumingot.name": "Segrum",
+      "item.ebritepickaxe.name": "Ebrite Pickaxe",
+      "tile.segrumore.name": "Segrum Ore",
+      "item.segrumshovel.name": "Segrum Shovel",
+      "item.handle.name": "Handle",
+      "entity.legacyboss.name": "Legacy Boss",
+      "item.segrumarmorbody.name": "Segrum Chestplate",
+      "tile.ebriteoreblock.name": "Block of Ebrite",
+      "itemGroup.tabvbores": "VB Ores",
+      "item.ebritearmorhelmet.name": "Ebrite Helmet",
+      "item.ebritehoe.name": "Ebrite Hoe"
     }
   },
   "workspaceSettings": {

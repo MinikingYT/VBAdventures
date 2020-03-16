@@ -1,0 +1,19 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 0,
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:EbriteOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:EbriteIngot"
+    },
+    "smeltingXPReward": 2.0999999999999996,
+    "smeltingRetstackSize": 1,
+    "name": "ebriteoresmelting",
+    "namespace": "mod"
+  }
+}

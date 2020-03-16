@@ -1,0 +1,23 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "segrum_sword",
+    "customModelName": "diamond_sword:default",
+    "name": "Legacy Sword",
+    "creativeTab": {
+      "value": "CUSTOM:VBWeapons"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 8,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 50.0,
+    "usageCount": 1600,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

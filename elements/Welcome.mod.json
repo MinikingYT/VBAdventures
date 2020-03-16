@@ -1,0 +1,24 @@
+{
+  "_fv": 5,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Welcome",
+    "achievementDescription": "Get Started",
+    "achievementIcon": {
+      "value": "CUSTOM:Espadatest"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"107\" y=\"53\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

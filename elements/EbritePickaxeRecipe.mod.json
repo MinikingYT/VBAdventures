@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:EbritePickaxe"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EbriteHandle"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EbriteHandle"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "ebritepickaxerecipe",
+    "namespace": "mod"
+  }
+}

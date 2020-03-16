@@ -1,0 +1,52 @@
+{
+  "_fv": 5,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": "CUSTOM:EbritePickaxe"
+      },
+      {
+        "value": "CUSTOM:EbriteOreBlock"
+      },
+      {
+        "value": "CUSTOM:EbriteOre"
+      },
+      {
+        "value": "CUSTOM:EbriteAxe"
+      },
+      {
+        "value": "CUSTOM:EbriteSword"
+      },
+      {
+        "value": "CUSTOM:EbriteShovel"
+      },
+      {
+        "value": "CUSTOM:EbriteHoe"
+      },
+      {
+        "value": "CUSTOM:EbriteArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:EbriteArmor.body"
+      },
+      {
+        "value": "CUSTOM:EbriteArmor.legs"
+      },
+      {
+        "value": "CUSTOM:EbriteArmor.boots"
+      },
+      {
+        "value": "CUSTOM:EbriteHandle"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "name": "ebrite",
+    "namespace": "forge"
+  }
+}

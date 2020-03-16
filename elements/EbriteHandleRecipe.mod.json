@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:EbriteHandle"
+    },
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": "CUSTOM:Handle"
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:EbriteIngot"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "ebritehandlerecipe",
+    "namespace": "mod"
+  }
+}

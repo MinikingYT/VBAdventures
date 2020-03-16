@@ -1,0 +1,26 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "2": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "3": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "5": {
+      "item": "vbadventures:ebriteingot"
+    }
+  },
+  "result": {
+    "item": "vbadventures:ebritearmorboots",
+    "count": 1
+  }
+}

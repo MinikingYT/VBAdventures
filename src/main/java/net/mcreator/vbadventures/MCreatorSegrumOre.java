@@ -76,8 +76,13 @@ public class MCreatorSegrumOre extends Elementsvbadventures.ModElement {
 			setHardness(4F);
 			setResistance(5000F);
 			setLightLevel(0F);
-			setLightOpacity(255);
+			setLightOpacity(0);
 			setCreativeTab(MCreatorVBOres.tab);
+		}
+
+		@Override
+		public boolean isOpaqueCube(IBlockState state) {
+			return false;
 		}
 	}
 }

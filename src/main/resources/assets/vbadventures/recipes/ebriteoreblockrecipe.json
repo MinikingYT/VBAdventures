@@ -1,0 +1,42 @@
+{
+  "group": "vbadventures",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "1": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "2": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "3": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "4": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "5": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "6": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "7": {
+      "item": "vbadventures:ebriteingot"
+    },
+    "8": {
+      "item": "vbadventures:ebriteingot"
+    }
+  },
+  "result": {
+    "item": "vbadventures:ebriteoreblock",
+    "count": 1
+  }
+}

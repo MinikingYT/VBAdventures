@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "diamond_sword": "fantasysword"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_fv": 5,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "ebrite_head",
+    "enableBody": true,
+    "textureBody": "ebrite_body",
+    "enableLeggings": true,
+    "textureLeggings": "ebrite_leggings",
+    "enableBoots": true,
+    "textureBoots": "ebrite_boots",
+    "creativeTab": {
+      "value": "CUSTOM:VBArmors"
+    },
+    "armorTextureFile": "ebrite",
+    "helmetName": "Ebrite Helmet",
+    "bodyName": "Ebrite Chestplate",
+    "leggingsName": "Ebrite Leggings",
+    "bootsName": "Ebrite Boots",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 40,
+    "damageValueHelmet": 8,
+    "damageValueBody": 20,
+    "damageValueLeggings": 18,
+    "damageValueBoots": 8,
+    "enchantability": 27,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": []
+  }
+}
