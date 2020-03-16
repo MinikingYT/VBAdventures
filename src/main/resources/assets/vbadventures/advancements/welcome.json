@@ -2,7 +2,7 @@
   "display": {
     "background": "minecraft:textures/blocks/stone.png",
     "icon": {
-      "item": "minecraft:air"
+      "item": "vbadventures:segrumingot"
     },
     "title": {
       "translate": "advancements.welcome.title"

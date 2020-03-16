@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vbadventures:blocks/trashcanside",
+    "up": "vbadventures:blocks/trashcanside",
+    "north": "vbadventures:blocks/trashcan",
+    "east": "vbadventures:blocks/trashcanside",
+    "south": "vbadventures:blocks/trashcanside",
+    "west": "vbadventures:blocks/trashcanside",
+    "particle": "vbadventures:blocks/trashcanside"
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 416,
+    "renderBgLayer": true,
+    "containerBlock": "<none>",
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 0,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "BackPack",
+          "color": {
+            "value": -10526881,
+            "falpha": 0.0
+          },
+          "name": "BackPack",
+          "x": 264,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 1,
+          "name": "Slot #1",
+          "x": 300,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 2,
+          "name": "Slot #2",
+          "x": 336,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 3,
+          "name": "Slot #3",
+          "x": 372,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 4,
+          "name": "Slot #4",
+          "x": 408,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 5,
+          "name": "Slot #5",
+          "x": 444,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 6,
+          "name": "Slot #6",
+          "x": 480,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 7,
+          "name": "Slot #7",
+          "x": 516,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 8,
+          "name": "Slot #8",
+          "x": 552,
+          "y": 168
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 9,
+          "name": "Slot #9",
+          "x": 264,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 10,
+          "name": "Slot #10",
+          "x": 300,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 11,
+          "name": "Slot #11",
+          "x": 336,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 12,
+          "name": "Slot #12",
+          "x": 372,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 13,
+          "name": "Slot #13",
+          "x": 408,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 14,
+          "name": "Slot #14",
+          "x": 444,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 15,
+          "name": "Slot #15",
+          "x": 480,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 16,
+          "name": "Slot #16",
+          "x": 516,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 17,
+          "name": "Slot #17",
+          "x": 552,
+          "y": 132
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 18,
+          "name": "Slot #18",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 19,
+          "name": "Slot #19",
+          "x": 300,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 20,
+          "name": "Slot #20",
+          "x": 336,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 21,
+          "name": "Slot #21",
+          "x": 372,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 22,
+          "name": "Slot #22",
+          "x": 408,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 23,
+          "name": "Slot #23",
+          "x": 444,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 24,
+          "name": "Slot #24",
+          "x": 480,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 25,
+          "name": "Slot #25",
+          "x": 516,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 26,
+          "name": "Slot #26",
+          "x": 552,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 27,
+          "name": "Slot #27",
+          "x": 264,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 28,
+          "name": "Slot #28",
+          "x": 300,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 29,
+          "name": "Slot #29",
+          "x": 336,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 30,
+          "name": "Slot #30",
+          "x": 372,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 31,
+          "name": "Slot #31",
+          "x": 408,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 32,
+          "name": "Slot #32",
+          "x": 444,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 33,
+          "name": "Slot #33",
+          "x": 480,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 34,
+          "name": "Slot #34",
+          "x": 516,
+          "y": 60
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "inventory": "BackPackInventory",
+          "id": 35,
+          "name": "Slot #35",
+          "x": 552,
+          "y": 60
+        }
+      }
+    ],
+    "inventories": [
+      {
+        "slotAmount": 35,
+        "name": "BackPackInventory",
+        "dropOnClose": false
+      }
+    ]
+  }
+}

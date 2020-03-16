@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Segrum Handle",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:VBAdventureMisc"
     },
     "stackSize": 64,
     "enchantability": 0,

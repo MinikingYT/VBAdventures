@@ -3,24 +3,24 @@
   "_type": "mob",
   "definition": {
     "mobName": "Legacy Boss",
-    "mobLabel": "Legacy Knight",
+    "mobLabel": "",
     "mobModelTexture": "knight.2.png",
     "mobModelName": "Biped",
     "modelWidth": 0.6,
     "modelHeight": 1.8,
     "modelShadowSize": 0.5,
-    "armorBaseValue": 3.0,
+    "armorBaseValue": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -10066330,
-      "falpha": 0.0
-    },
-    "spawnEggDotColor": {
       "value": -1,
       "falpha": 0.0
     },
+    "spawnEggDotColor": {
+      "value": -6710887,
+      "falpha": 0.0
+    },
     "creativeTab": {
-      "value": "CUSTOM:VBTools"
+      "value": "CUSTOM:VBAdventureMisc"
     },
     "isBoss": true,
     "bossBarColor": "WHITE",
@@ -46,7 +46,7 @@
     "mobBehaviourType": "Mob",
     "mobCreatureType": "UNDEFINED",
     "attackStrength": 3,
-    "movementSpeed": 0.3,
+    "movementSpeed": 0.30000000000000004,
     "trackingRange": 64,
     "health": 550,
     "xpAmount": 5,
@@ -54,18 +54,18 @@
     "flyingMob": false,
     "disableCollisions": false,
     "ridable": false,
-    "canControlForward": true,
+    "canControlForward": false,
     "canControlStrafe": true,
     "immuneToFire": false,
     "immuneToArrows": false,
-    "immuneToFallDamage": false,
+    "immuneToFallDamage": true,
     "immuneToCactus": false,
-    "immuneToDrowning": true,
+    "immuneToDrowning": false,
     "immuneToLightning": false,
     "immuneToPotions": false,
     "immuneToPlayer": false,
     "mobDrop": {
-      "value": "CUSTOM:LegacySword"
+      "value": ""
     },
     "livingSound": {
       "value": ""
@@ -84,9 +84,12 @@
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
     "particleSpawningCondition": "ALWAYS",
+    "onInitialSpawn": {
+      "name": "LegacyBossMessage"
+    },
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"185\" y=\"72\"><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><next><block type=\"attack_on_collide\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"leap_at_target\"><field name=\"speed\">0.6</field><next><block type=\"wander\"><field name=\"speed\">4</field><next><block type=\"swim_in_water\"><next><block type=\"look_around\"/></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
     "ranged": false,

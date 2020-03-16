@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "vbadventures:skypalacebossweapon"
+    },
+    "title": {
+      "translate": "advancements.thundergodachivement.title"
+    },
+    "description": {
+      "translate": "advancements.thundergodachivement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thundergodachivement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "vbadventures:legacybossachivement"
+}

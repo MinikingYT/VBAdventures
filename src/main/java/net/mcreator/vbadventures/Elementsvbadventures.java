@@ -116,11 +116,15 @@ public class Elementsvbadventures implements IFuelHandler, IWorldGenerator {
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorTrashCanGUI.GUIID)
+				return new MCreatorTrashCanGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorTrashCanGUI.GUIID)
+				return new MCreatorTrashCanGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

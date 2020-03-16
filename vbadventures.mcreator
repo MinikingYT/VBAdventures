@@ -1,6 +1,7 @@
 {
   "id_map": {
-    "ENTITY": 4
+    "ENTITY": 8,
+    "GUI": 3
   },
   "mod_elements": [
     {
@@ -508,57 +509,234 @@
       "ids": {}
     },
     {
-      "name": "LegacyBoss",
-      "type": "mob",
-      "sortid": 62,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {
-        "0": 3,
-        "1": 4
-      }
-    },
-    {
-      "name": "Espada",
-      "type": "tool",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "BlizeriumSword",
-      "type": "tool",
+      "name": "VBAdventureMisc",
+      "type": "tab",
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "TrashCanGUI",
+      "type": "gui",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 3
+      }
+    },
+    {
+      "name": "OpenTrashCan",
+      "type": "procedure",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TrashCan",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegacyBossAchivement",
+      "type": "achievement",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "LegacyBossMessage",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LegacyBoss",
+      "type": "mob",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 5,
+        "1": 6
+      }
+    },
+    {
+      "name": "SkyPalaceBoss",
+      "type": "mob",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 7,
+        "1": 8
+      }
+    },
+    {
+      "name": "BossLightningSummon",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyPalaceBossWeapon",
+      "type": "tool",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThunderGodAchivement",
+      "type": "achievement",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "SkyPalaceBossDead",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SkyPalaceBossMessage",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.ebritearmorboots.name": "Ebrite Boots",
       "item.ebritearmorlegs.name": "Ebrite Leggings",
+      "item.ebritearmorboots.name": "Ebrite Boots",
       "item.segrumhandle.name": "Segrum Handle",
       "item.ebritehandle.name": "Ebrite Handle",
+      "advancements.thundergodachivement.title": "Thunder God Achivement",
       "item.ebritearmorbody.name": "Ebrite Chestplate",
       "item.ebriteingot.name": "Ebrite",
+      "item.skypalacebossweapon.name": "Sky Palace Boss Weapon",
+      "itemGroup.tabvbadventuremisc": "VB Adventures Misc",
+      "tile.trashcan.name": "Trash Can",
       "item.segrumhoe.name": "Segrum Hoe",
       "item.segrumaxe.name": "Segrum Axe",
       "advancements.welcome.title": "Welcome",
       "item.ebriteshovel.name": "Ebrite Shovel",
+      "advancements.thundergodachivement.descr": "Defeat Thunder God",
       "item.ebritesword.name": "Ebrite Sword",
       "item.sword3dmodel1.name": "Legacy Sword",
       "itemGroup.tabvbweapons": "VB Weapons",
       "tile.ebriteore.name": "Ebrite Ore",
-      "item.blizeriumsword.name": "Blizerium Sword",
       "tile.segrumoreblock.name": "Block of Segrum",
+      "advancements.legacybossachivement.title": "Legacy Boss Achivement",
+      "advancements.legacybossachivement.descr": "Defeat the Legacy Boss",
       "item.segrumpickaxe.name": "Segrum Pickaxe",
       "item.ebriteaxe.name": "Ebrite Axe",
       "itemGroup.tabvbarmors": "VB Armors",
-      "item.espada.name": "Espada",
       "item.segrumarmorhelmet.name": "Segrum Helmet",
       "item.segrumarmorboots.name": "Segrum Boots",
       "advancements.welcome.descr": "Get Started",
@@ -576,6 +754,7 @@
       "tile.ebriteoreblock.name": "Block of Ebrite",
       "itemGroup.tabvbores": "VB Ores",
       "item.ebritearmorhelmet.name": "Ebrite Helmet",
+      "entity.skypalaceboss.name": "Thunder God",
       "item.ebritehoe.name": "Ebrite Hoe"
     }
   },

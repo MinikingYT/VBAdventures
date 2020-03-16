@@ -8,6 +8,7 @@ import net.minecraftforge.fml.client.registry.RenderingRegistry;
 
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.world.DifficultyInstance;
 import net.minecraft.world.BossInfoServer;
 import net.minecraft.world.BossInfo;
 import net.minecraft.util.math.MathHelper;
@@ -26,7 +27,9 @@ import net.minecraft.entity.ai.EntityAINearestAttackableTarget;
 import net.minecraft.entity.ai.EntityAILookIdle;
 import net.minecraft.entity.ai.EntityAILeapAtTarget;
 import net.minecraft.entity.ai.EntityAIHurtByTarget;
+import net.minecraft.entity.ai.EntityAIAttackMelee;
 import net.minecraft.entity.SharedMonsterAttributes;
+import net.minecraft.entity.IEntityLivingData;
 import net.minecraft.entity.EnumCreatureAttribute;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.Entity;
@@ -38,17 +41,17 @@ import java.util.ArrayList;
 
 @Elementsvbadventures.ModElement.Tag
 public class MCreatorLegacyBoss extends Elementsvbadventures.ModElement {
-	public static final int ENTITYID = 3;
-	public static final int ENTITYID_RANGED = 4;
+	public static final int ENTITYID = 5;
+	public static final int ENTITYID_RANGED = 6;
 
 	public MCreatorLegacyBoss(Elementsvbadventures instance) {
-		super(instance, 62);
+		super(instance, 70);
 	}
 
 	@Override
 	public void initElements() {
 		elements.entities.add(() -> EntityEntryBuilder.create().entity(EntityCustom.class)
-				.id(new ResourceLocation("vbadventures", "legacyboss"), ENTITYID).name("legacyboss").tracker(64, 1, true).egg(-10066330, -1).build());
+				.id(new ResourceLocation("vbadventures", "legacyboss"), ENTITYID).name("legacyboss").tracker(64, 1, true).egg(-1, -6710887).build());
 	}
 
 	private Biome[] allbiomes(net.minecraft.util.registry.RegistryNamespaced<ResourceLocation, Biome> in) {
@@ -85,16 +88,15 @@ public class MCreatorLegacyBoss extends Elementsvbadventures.ModElement {
 			experienceValue = 5;
 			this.isImmuneToFire = false;
 			setNoAI(!true);
-			setCustomNameTag("Legacy Knight");
-			setAlwaysRenderNameTag(true);
 			enablePersistence();
-			this.tasks.addTask(1, new EntityAIWander(this, 1));
-			this.tasks.addTask(2, new EntityAILookIdle(this));
-			this.tasks.addTask(3, new EntityAISwimming(this));
-			this.tasks.addTask(4, new EntityAILeapAtTarget(this, (float) 0.8));
-			this.targetTasks.addTask(5, new EntityAIHurtByTarget(this, false));
-			this.targetTasks.addTask(6, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, true));
-			this.targetTasks.addTask(7, new EntityAINearestAttackableTarget(this, EntityPlayerMP.class, false, true));
+			this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
+			this.tasks.addTask(2, new EntityAIAttackMelee(this, 1.2, false));
+			this.targetTasks.addTask(3, new EntityAINearestAttackableTarget(this, EntityPlayer.class, false, true));
+			this.targetTasks.addTask(4, new EntityAINearestAttackableTarget(this, EntityPlayerMP.class, false, true));
+			this.tasks.addTask(5, new EntityAILeapAtTarget(this, (float) 0.6));
+			this.tasks.addTask(6, new EntityAIWander(this, 4));
+			this.tasks.addTask(7, new EntityAISwimming(this));
+			this.tasks.addTask(8, new EntityAILookIdle(this));
 			this.setItemStackToSlot(EntityEquipmentSlot.MAINHAND, new ItemStack(MCreatorSword3dModel1.block, (int) (1)));
 			this.setItemStackToSlot(EntityEquipmentSlot.OFFHAND, new ItemStack(Items.SHIELD, (int) (1)));
 		}
@@ -111,7 +113,7 @@ public class MCreatorLegacyBoss extends Elementsvbadventures.ModElement {
 
 		@Override
 		protected Item getDropItem() {
-			return new ItemStack(MCreatorLegacySword.block, (int) (1)).getItem();
+			return null;
 		}
 
 		@Override
@@ -136,16 +138,30 @@ public class MCreatorLegacyBoss extends Elementsvbadventures.ModElement {
 
 		@Override
 		public boolean attackEntityFrom(DamageSource source, float amount) {
-			if (source == DamageSource.DROWN)
+			if (source == DamageSource.FALL)
 				return false;
 			return super.attackEntityFrom(source, amount);
+		}
+
+		@Override
+		public IEntityLivingData onInitialSpawn(DifficultyInstance difficulty, IEntityLivingData livingdata) {
+			IEntityLivingData retval = super.onInitialSpawn(difficulty, livingdata);
+			int x = (int) this.posX;
+			int y = (int) this.posY;
+			int z = (int) this.posZ;
+			Entity entity = this;
+			{
+				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
+				MCreatorLegacyBossMessage.executeProcedure($_dependencies);
+			}
+			return retval;
 		}
 
 		@Override
 		protected void applyEntityAttributes() {
 			super.applyEntityAttributes();
 			if (this.getEntityAttribute(SharedMonsterAttributes.ARMOR) != null)
-				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(3D);
+				this.getEntityAttribute(SharedMonsterAttributes.ARMOR).setBaseValue(0D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED) != null)
 				this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).setBaseValue(0.3D);
 			if (this.getEntityAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
@@ -192,7 +208,7 @@ public class MCreatorLegacyBoss extends Elementsvbadventures.ModElement {
 				this.stepHeight = 1.0F;
 				if (entity instanceof EntityLivingBase) {
 					this.setAIMoveSpeed((float) this.getEntityAttribute(SharedMonsterAttributes.MOVEMENT_SPEED).getAttributeValue());
-					float forward = ((EntityLivingBase) entity).moveForward;
+					float forward = 0;
 					float strafe = ((EntityLivingBase) entity).moveStrafing;
 					super.travel(strafe, 0, forward);
 				}

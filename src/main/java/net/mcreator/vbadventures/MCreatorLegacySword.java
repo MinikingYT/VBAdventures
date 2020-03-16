@@ -31,7 +31,7 @@ public class MCreatorLegacySword extends Elementsvbadventures.ModElement {
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("LEGACYSWORD", 8, 1600, 4f, 46f, 2)) {
+		elements.items.add(() -> new ItemSword(EnumHelper.addToolMaterial("LEGACYSWORD", 8, 1600, 4f, 36f, 2)) {
 			public Multimap<String, AttributeModifier> getItemAttributeModifiers(EntityEquipmentSlot slot) {
 				Multimap<String, AttributeModifier> multimap = super.getItemAttributeModifiers(slot);
 				if (slot == EntityEquipmentSlot.MAINHAND) {

@@ -1,0 +1,26 @@
+{
+  "_fv": 5,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "skypalacebossweapon",
+    "customModelName": "thors_hammer:default",
+    "name": "Sky Palace Boss Weapon",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 4.0,
+    "attackSpeed": 1.1,
+    "enchantability": 2,
+    "damageVsEntity": 23.0,
+    "usageCount": 10,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "BossLightningSummon"
+    }
+  }
+}

@@ -5,7 +5,7 @@
     "achievementName": "Welcome",
     "achievementDescription": "Get Started",
     "achievementIcon": {
-      "value": "CUSTOM:Espadatest"
+      "value": "CUSTOM:SegrumIngot"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -19,6 +19,6 @@
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"107\" y=\"53\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"172\" y=\"38\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
   }
 }
